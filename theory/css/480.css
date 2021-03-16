@@ -1,0 +1,34 @@
+/* bắt đàu phần header  */
+.header .banner {
+    background-attachment: scroll;
+}
+.header .banner {
+    padding: 100px 0 80px;
+}
+.header .nav {
+    width: 85%;
+    margin-top: 30px;
+}
+/* bắt đầu phần content-news */
+.item p.title,
+.item p.description {
+    text-align: center;
+}
+.item a.a-btn {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+}
+/* bắt đầu phần content-user */
+.content .content-heading {
+    margin-bottom: 40px;
+}
+.content-heading h2 {
+    font-size: 32px;
+}
+.content-heading p {
+    font-size: 14.4px;
+}
+.user-info .info {
+    width: 100%;
+}

@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #d8a997;
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    width: 100%;
+}
+.content {
+    width: 920px;
+    height: 500px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* bat dau css content-left */
+.content-left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background: #7f7182;
+    position: absolute;
+}
+.content-left .brand {
+    padding-top: 40px;
+    text-align: center;
+}
+.content-left .brand i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f8b3a8;
+    color: #9d7279;
+    font-size: 30px;
+    transform: rotate(-45deg);
+    text-align: center;
+    line-height: 50px;
+}
+.content-left .brand span {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.content-left img {
+    display: block;
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* bat dau css content-right */
+.content-right {
+    width: 60%;
+    height: 100%;
+    background: #fac7c3;
+    float: right;
+    position: relative;
+}
+.content-right .title-right {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.content-right .title-right p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-right .form-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.form-content input {
+    outline: none;
+    width: 175px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.form-content label.title-form {
+    color: #714640;
+}
+.form-content .form-content-left {
+    width: 40%;
+    float: left;
+}
+.form-content .form-content-right {
+    width: 40%;
+    float: right;
+}
+.form-content-right .upload {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+input[type="file"] {
+    display: none;
+}
+.upload label.camera-icon {
+    padding: 0;
+    cursor: pointer;
+}
+.upload label.camera-icon i{
+    font-size: 25px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    color: black;
+}
+.form-radio-content {
+    width: 175px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin-top: 5px;
+}
+.form-radio-content input {
+    display: none;
+}
+.form-radio-content label {
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    border: 2px solid white;
+    color: #714640;
+}
+.form-input:checked + .form-label {
+    background: #fbb2ac;
+}
+.form-content-full .form-weight {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.form-weight .form-radio-content {
+    width: 100%;
+}
+/* tao css direc */
+.direc {
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: absolute;
+}
+.direc .btn {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.direc .btn button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gray;
+    background: white;
+    cursor: pointer;
+}
+.direc .btn button:hover {
+    background: #817083;
+    color: white;
+}
+.direc .btn button:nth-child(2) {
+    float: right;
+}

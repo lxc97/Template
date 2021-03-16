@@ -1,0 +1,82 @@
+/* bắt đàu phần header  */
+.header .banner {
+    padding: 160px 0 140px;
+}
+.banner h1 {
+    font-size: 56px;
+}
+.header .nav {
+    width: 90%;
+    margin-top: 60px;
+}
+.banner p,
+.nav ul.logo a {
+    font-size: 16px;
+}
+.nav ul.nav-right a {
+    display: none;
+}
+.nav ul.nav-right span.open-menu {
+    display: inline-block;
+    color: #d4e0ef;
+    cursor: pointer;
+}
+/* bắt đầu phần content-news */
+.content .news {
+    width: 90%;
+    padding: 32px 0;
+}
+.news .item {
+    width: 100%;
+}
+.news .item .list {
+    width: 100%;
+}
+.news .item:last-child {
+    padding-bottom: 20px;
+}
+.news .item:not(:last-child) {
+    padding-bottom: 40px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #dbdbdb;
+    border-right: none;
+}
+.item p.title {
+    font-size: 21.6px;
+}
+.item p.description {
+    font-size: 16px;
+}
+/* bắt đầu phần content-user */
+.user .user-content {
+    width: 90%;
+    padding: 32px 0;
+}
+.content-heading h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.content-heading p {
+    font-size: 16px;
+}
+.user-info .info {
+    width: 47%;
+    margin-bottom: 40px;
+}
+.info .avatar {
+    width: 40%;
+    padding: 50px 0;
+}
+.info .avatar p {
+    font-size: 21.6px;
+}
+/* bắt đầu phần special */
+.content .special {
+    padding: 32px 0;
+}
+.special-content .item {
+    width: 100%;
+}
+.special-content .item:first-child {
+    margin-bottom: 32px;
+}

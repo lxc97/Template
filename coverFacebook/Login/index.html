@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+
+            <div class="login-left">
+                <div class="login-text">
+                    <div class="logo">
+                        <img src="https://www.facebook.com/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="facebook">
+                    </div>
+                    <h2>Đăng nhập gần đây</h2>
+                    <p>Nhấp vào ảnh của bạn hoặc thêm tài khoản</p>
+                </div>
+
+                <div class="login-old-account">
+                    <div class="old-account-item">
+                        <div class="account-item-detail" onclick="openLoginAccount(true)">
+                            <div>
+                                <img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-1/p160x160/81205813_1874629872681350_3722069158939066368_n.jpg?_nc_cat=100&_nc_sid=dbb9e7&_nc_ohc=NzArzCASS80AX-CDqYW&_nc_ht=scontent.fhan5-7.fna&_nc_tp=6&oh=6871bd17945501e1fa3219236e2caa16&oe=5F608F75" alt="">
+                                <p>Lê</p>
+                                <div class="remove-icon"
+                                    onmousemove="openTooltip(this)"
+                                    onmouseleave="closeTooltip(this)">
+                                    <i class="far fa-times"></i>
+                                </div>
+                                <div class="tooltip">Gỡ tài khoản khỏi trang này</div>
+                                <span class="notify">100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="old-account-item">
+                        <div class="account-item-detail"onclick="openLoginAccount(true)">
+                            <div>
+                                <img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-1/p160x160/106370117_749685839178163_1688617199923608714_o.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_ohc=vWLdEkIjRkAAX-Mp68x&_nc_ht=scontent.fhan5-2.fna&_nc_tp=6&oh=1ec6a63df725ca4835caa283c9e25a2f&oe=5F62B1D0" alt="">
+                                <p>LX</p>
+                                <div class="remove-icon"
+                                    onmousemove="openTooltip(this)"
+                                    onmouseleave="closeTooltip(this)">
+                                    <i class="far fa-times"></i>
+                                </div>
+                                <div class="tooltip">Gỡ tài khoản khỏi trang này</div>
+                                <span class="notify">100</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-account-item">
+                        <div class="account-item-detail">
+                            <div>
+                                <a href="">
+                                    <div class="add-account">
+                                        <i class="far fa-plus"></i>
+                                    </div>
+                                    <p class="add-account-text">Thêm tài khoản</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="login-right">
+                <div class="login-right-content">
+                    <div class="login-form">
+                        <form action="" method="POST">
+                            <div>
+                                <div class="input-login">
+                                    <input type="text" name="" id="" placeholder="Email hoặc số điện thoại">
+                                </div>
+                                <div class="input-login">
+                                    <input type="password" name="" id="" placeholder="Mật khẩu">
+                                </div>
+                            </div>
+                            <button class="login-btn" type="submit">Đăng nhập</button>
+                        </form>
+
+                        <a href="">Quên tài khoản?</a>
+                        <div class="hr-line"></div>
+                        <button class="create-new-account-btn"type="submit">Tạo tài khoản mới</button>
+                    </div>
+                    <div class="login-footer">
+                        <a href="">Tạo Trang</a>
+                        <span>dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <ul class="list-footer">
+                        <a href="">
+                            <li>Tiếng Việt</li>
+                        </a>
+                        <a href="">
+                            <li>English (UK)</li>
+                        </a>
+                        <a href="">
+                            <li>中文(台灣)</li>
+                        </a>
+                        <a href="">
+                            <li>日本語</li>
+                        </a>
+                        <a href="">
+                            <li>한국어</li>
+                        </a>
+                        <a href="">
+                            <li>ภาษาไทย</li>
+                        </a>
+                        <a href="">
+                            <li>Français (France)</li>
+                        </a>
+                        <a href="">
+                            <li>Español</li>
+                        </a>
+                        <a href="">
+                            <li>Português (Brasil)</li>
+                        </a>
+                        <a href="">
+                            <li>Deutsch</li>
+                        </a>
+                        <a href="">
+                            <li>Italiano</li>
+                        </a>
+                        <a href="">
+                            <li class="list-footer-icon-add"><i class="far fa-plus"></i></li>
+                        </a>
+                    </ul>
+                    <div class="hr-footer"></div>
+                    <ul class="list-footer-child">
+                        <a href="">
+                            <li>Đăng ký</li>
+                        </a>
+                        <a href="">
+                            <li>Đăng nhập</li>
+                        </a>
+                        <a href="">
+                            <li>Messenger</li>
+                        </a>
+                        <a href="">
+                            <li>Facebook Lite</li>
+                        </a>
+                        <a href="">
+                            <li> Watch </li>
+                        </a>
+                        <a href="">
+                            <li>Danh bạ</li>
+                        </a>
+                        <a href="">
+                            <li>Trang</li>
+                        </a>
+                        <a href="">
+                            <li>Hạng mục Trang</li>
+                        </a>
+                        <a href="">
+                            <li>Địa điểm</li>
+                        </a>
+                        <a href="">
+                            <li>Trò chơi</li>
+                        </a>
+                        <a href="">
+                            <li>Vị trí</li>
+                        </a>
+                        <a href="">
+                            <li>Marketplace</li>
+                        </a>
+                        <a href="">
+                            <li>Facebook Pay</li>
+                        </a>
+                        <a href="">
+                            <li>Nhóm</li>
+                        </a>
+                        <a href="">
+                            <li>Oculus</li>
+                        </a>
+                        <a href="">
+                            <li>Portal</li>
+                        </a>
+                        <a href="">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="">
+                            <li>Địa phương</li>
+                        </a>
+                        <a href="">
+                            <li>Chiến dịch gây quỹ</li>
+                        </a>
+                        <a href="">
+                            <li>Dịch vụ</li>
+                        </a>
+                        <a href="">
+                            <li>Giới thiệu</li>
+                        </a>
+                        <a href="">
+                            <li>Tạo quảng cáo</li>
+                        </a>
+                        <a href="">
+                            <li>Tạo Trang</li>
+                        </a>
+                        <a href="">
+                            <li>Nhà phát triển</li>
+                        </a>
+                        <a href="">
+                            <li>Tuyển dụng</li>
+                        </a>
+                        <a href="">
+                            <li>Quyền riêng tư</li>
+                        </a>
+                        <a href="">
+                            <li>Cookie</li>
+                        </a>
+                        <a href="">
+                            <li>Lựa chọn quảng cáo</li>
+                        </a>
+                        <a href="">
+                            <li>Điều khoản</li>
+                        </a>
+                        <a href="">
+                            <li>Trợ giúp</li>
+                        </a>
+                        <a href="">
+                            <li>Cài đặt</li>
+                        </a>
+                        <a href="">
+                            <li>Nhật ký hoạt động</li>
+                        </a>
+                    </ul>
+                    <div class="coppyright">
+                        <div>
+                            <p> Facebook © 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- modal box -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="modal-content-detail">
+                    <div class="close-modal" onclick="openLoginAccount(false)"><i class="far fa-times"></i></div>
+                    <div class="img-modal">
+                        <img src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-1/p160x160/81205813_1874629872681350_3722069158939066368_n.jpg?_nc_cat=100&_nc_sid=dbb9e7&_nc_ohc=NzArzCASS80AX8AtKXL&_nc_ht=scontent.fhan5-7.fna&_nc_tp=6&oh=344cbcc0d0b04588d0291ea7dc92d24b&oe=5F6483F5" alt="">
+                    </div>
+                    <div class="name-modal">
+                        <p>Lê Xuân Chiến</p>
+                    </div>
+                    <div class="password-modal">
+                        <input type="password" name="passworModal" id="" placeholder="Mật khẩu">
+                    </div>
+                    <div class="remember-pass">
+                        <input type="checkbox" name="rerememberPass" id="rerememberPass">
+                        <label for="rerememberPass">Nhớ mật khẩu</label>
+                    </div>
+                    <div class="btn-login-modal">
+                        <button type="submit">Đăng nhập</button>
+                    </div>
+                    <div class="hr-modal"></div>
+                    <div class="forgot-pass">
+                        <a href="">Quên mật khẩu?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- link js -->
+    <script src="main.js"></script>
+</body>
+</html>

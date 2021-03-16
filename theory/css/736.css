@@ -1,0 +1,26 @@
+.header .banner {
+    padding: 125px 0 110px;
+}
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.header .nav {
+    margin-top: 45px;
+}
+.banner p {
+    font-size: 14.4px;
+}
+/* bắt đầu css footer */
+.footer-content {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.footer-content div {
+    width: 100%;
+}
+.footer-content .social {
+    display: flex;
+    justify-content: center ;
+    padding-bottom: 40px;
+}
